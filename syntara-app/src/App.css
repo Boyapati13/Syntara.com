@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f7;
+}
+
+.app {
+  text-align: center;
+}
+
+.header {
+  background-color: #0a3d62;
+  color: white;
+  padding: 2rem 0;
+}
+
+.tagline {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.feature-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 1rem;
+  max-width: 300px;
+}
+
+.footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #eee;
+}
