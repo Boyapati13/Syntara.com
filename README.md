@@ -2,6 +2,12 @@
 
 This repository contains a simple React-based website for the Syntara platform.
 
+The application now showcases the following school management modules:
+
+- **Fee Module** – track student fees and payments.
+- **Attendance Module** – monitor student attendance records.
+- **Teacher Payroll** – manage payroll processing for teachers.
+
 ## Development
 
 1. Ensure you have Node.js installed.
