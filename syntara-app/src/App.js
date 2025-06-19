@@ -1,4 +1,7 @@
 import React from 'react';
+import FeeModule from './modules/FeeModule';
+import AttendanceModule from './modules/AttendanceModule';
+import TeacherPayroll from './modules/TeacherPayroll';
 
 function FeatureCard({ title, children }) {
   return (
@@ -26,7 +29,21 @@ export default function App() {
         <FeatureCard title="IoT Solutions">
           Live monitoring and device management powered by the Internet of Things.
         </FeatureCard>
+        <FeatureCard title="Fee Module">
+          Easily manage student fees and payment tracking in one place.
+        </FeatureCard>
+        <FeatureCard title="Attendance Module">
+          Monitor student attendance and generate reports effortlessly.
+        </FeatureCard>
+        <FeatureCard title="Teacher Payroll">
+          Streamline payroll calculations and payments for teachers.
+        </FeatureCard>
       </main>
+      <section className="modules">
+        <FeeModule />
+        <AttendanceModule />
+        <TeacherPayroll />
+      </section>
       <footer className="footer">&copy; {new Date().getFullYear()} syntara.com</footer>
     </div>
   );
